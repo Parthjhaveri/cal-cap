@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Fictional Ventures</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width">
+
+	<!-- JQUERY -->
+	<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- GOOGLE FONTS -->
+	<link href="https://fonts.googleapis.com/css?family=Cairo:300&display=swap" rel="stylesheet">
+
+	<!-- FONT AWESOME -->
+	<link media="none" onload="if(media!=='all')media='all'" rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- LINK CSS AND JS FILES -->
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <script defer src='./js/app.js'></script>
+
+</head>
+<body>
+	<nav class="p-4">
+		<div class="container">
+			<span id="menu-bar">
+				<i class="fas fa-bars"></i>
+			</span>
+
+			<ul id="menu-web">
+				<li>
+					<a href="index.html">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="about.html">
+						About
+					</a>
+				</li>
+				<li>
+					<img src="./images/fv-logo.png">
+				</li>
+				<li>
+					<a href="news.html">
+						News
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	<!-- MOBILE MENU -->
+	<div class="mobile-menu">
+		<i class="fas fa-times-circle" id="close-menu"></i>	
+		<div class="container">
+			<div class="text-wrap">
+				<a href="index.html">
+					Home
+				</a>
+				<a href="about.html">
+					About
+				</a>
+				<a href="news.html">
+					News
+				</a>
+				<a href="#">
+					Contact
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<section class="sec-block" id="home-main">
+		<div class="container">
+			<div class="text-box">
+				<h1>Fictional Ventures</h1>
+				<h4>We strive for excellence. We thrive on teamwork.</h4>
+				<button class="btn-std my-4">
+					Learn More
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section class="sec-block" id="home-about">
+		<div class="container">
+			<h1 class="mb-5">Who We Are</h1>
+			<div class="circle">
+				<div class="text-wrap">					
+					<h5>100% Turnover</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+			</div>
+			<div class="circle">
+				<div class="text-wrap">					
+					<h5>Results Matter</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+			</div>
+			<div class="circle">
+				<div class="text-wrap">					
+					<h5>Our Priority</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+					</p>
+				</div>
+			</div>	
+			
+			<p class="my-5">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>		
+		</div>
+	</section>
+
+	<section id="home-news">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-lg-4 p-4 text-center"">
+					<div class="text-wrap">
+						<h1>Latest News</h1>
+					</div>
+				</div>
+				<div class="col-12 col-lg-8 p-4">
+					<div class="text-wrap">
+						<h1>
+							Venture capital firm Redpoint hires a ‘head of founder experience’
+						</h1>
+						<p class="my-3">
+							As access to top deals becomes more competitive, venture capital firms are creating new roles to attract top entrepreneurs. Now, in addition to recruiting top dealmakers, firms are bringing in culture experts and allocating roles to individuals who better understand and empathize with the founder journey.
+						</p>
+						<a href="https://techcrunch.com/2019/10/22/venture-capital-firm-redpoint-hires-a-head-of-founder-experience/" target="_blank">							
+							<button class="btn-std my-4">
+								Read More
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.1210184781035!2d-73.97749782839435!3d40.7612951023294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f97bdb102b%3A0xea9f8fc0b3ffff55!2sThe%20Museum%20of%20Modern%20Art!5e0!3m2!1sen!2sus!4v1571859724843!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+	<section class="sec-block" id="home-contact">
+		<div class="container">			
+			<div class="row">
+				<div class="col-12 col-lg-6">
+					<h1 class="mb-5">More Info.</h1>
+					<div class="text-wrap">						
+						<p>
+							11 W 53rd St, New York, NY 10019
+						</p>
+						<i class="fas fa-map-pin"></i>
+					</div>
+					
+					<div class="text-wrap my-3">
+						<a href="tel:18001234567" class="btn-std">
+							Call Us							
+						</a>
+					</div>
+
+					<p class="mt-5">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</p>
+				</div>
+				<div class="col-12 col-lg-6">
+					<h1 class="my-5">Contact Us</h1>
+					<form action="#" method="get" autocomplete="on">
+						<label for="us-f-name">First Name</label>
+						<input type="text" name="us-f-name">
+
+						<label for="us-l-name">Last Name</label>
+						<input type="text" name="us-l-name">
+
+						<label for="us-email">E-Mail</label>
+						<input type="email" name="us-email">
+
+						<label for="us-subject">Subject</label>
+						<input type="text" name="us-subject">
+
+						<label for="us-message">Message</label>
+						<textarea name="us-message">
+						</textarea>
+						
+						<input type="submit" name="us-submit" class="mt-5 btn-std">
+					</form>	
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="sec-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<p>
+						As access to top deals becomes more competitive, venture capital firms are creating new roles to attract top entrepreneurs. Now, in addition to recruiting top dealmakers.
+					</p>
+				</div>
+				<div class="col-12 col-md-4">
+					<p>
+						As access to top deals becomes more competitive, venture capital firms are creating new roles to attract top entrepreneurs. Now, in addition to recruiting top dealmakers.
+					</p>
+				</div>
+				<div class="col-12 col-md-4">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
